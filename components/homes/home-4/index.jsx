@@ -191,7 +191,7 @@ export default function Home4({ onePage = false, dark = false }) {
                 ) : (
                   <>
                     <Link
-                      href={`/corporate-contact${dark ? "-dark" : ""}`}
+                      href={`/console`}
                       className={`btn btn-mod ${
                         dark ? "btn-dark" : "btn-w"
                       } btn-with-icon btn-circle`}
@@ -242,14 +242,14 @@ export default function Home4({ onePage = false, dark = false }) {
                     <i className="mi-link-alt" />
                   </span>
                   <span data-btn-animate="y">
-                    <AnimateButton text={"Read Clients Stories"} />
+                    <AnimateButton text={"Read All Case Studies"} />
                   </span>
                 </a>
               </>
             ) : (
               <>
                 <Link
-                  href={`/corporate-portfolio${dark ? "-dark" : ""}`}
+                  href={`/portfolio`}
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}
@@ -293,20 +293,7 @@ export default function Home4({ onePage = false, dark = false }) {
       >
         <Pricing />
       </section>
-      <section className="container">
-        <div
-          className={`page-section px-4 px-md-0 ${
-            dark
-              ? "bg-dark-2 border-dark light-content"
-              : "bg-gradient-primary-light-1"
-          }  round`}
-        >
-          {dark && (
-            <div className="position-absolute top-0 start-0 bottom-0 end-0 bg-gradient-primary-dark-1 opacity-01"></div>
-          )}
-          <NewsLetter />
-        </div>
-      </section>
+    
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""

@@ -52,6 +52,6 @@ export const navigationLinks = [
   { href: "#about", text: "About" },
   { href: "#services", text: "Services" },
   { href: "#portfolio", text: "Portfolio" },
-  { href: "#blog", text: "Blog" },
+  { href: "#pricing", text: "Pricing" },
   { href: "#contact", text: "Contact" },
 ];

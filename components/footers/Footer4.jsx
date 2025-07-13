@@ -31,14 +31,14 @@ export default function Footer4() {
         <div className="row">
           <div className="col-lg-6 mb-md-60">
             <h2 className="section-title mb-60 mb-sm-40">
-              Ready to get started with Resonance Template?
+              Ready to Turn Medical Records Into Legal Leverage?
             </h2>
             <div className="local-scroll">
               <a
-                href="#contact"
+                href={`/console`}
                 className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
               >
-                <span>Get a Consultation</span>
+                <span>Start Your First Report</span>
               </a>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function Footer4() {
       {/* Footer Text */}
       <div className="row">
         <div className="col-md-6 mb-sm-40">
-          Made with love for great people. <br />© IB-Themes{" "}
+          Crafted with care for legal professionals and the clients they serve. <br />© Box of Dox. All rights reserved.{" "}
           {new Date().getFullYear()}.
         </div>
         {/* Social Links */}

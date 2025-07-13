@@ -25,7 +25,7 @@ export default function Footer1({ dark = false }) {
           <div className="col-md-4 col-lg-3 text-gray mb-sm-50">
             <Link href={"/"} className="mb-30">
               <Image
-                src="/assets/images/logo-dark.svg"
+                src="/assets/images/boxofdoxlogo.svg"
                 width={105}
                 height={34}
                 className="light-mode-logo"
@@ -33,7 +33,7 @@ export default function Footer1({ dark = false }) {
               />
 
               <Image
-                src="/assets/images/logo-white.svg"
+                src="/assets/images/boxofdoxlogo.svg"
                 width={105}
                 height={34}
                 className="dark-mode-logo"

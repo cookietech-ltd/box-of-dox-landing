@@ -80,19 +80,19 @@ export const features = [
 export const features2 = [
   {
     id: 1,
-    text: "Business to business",
+    text: "Legal & Insurance Firms",
   },
   {
     id: 2,
-    text: "Non-profit business",
+    text: "Personal Injury & Accident Cases",
   },
   {
     id: 3,
-    text: "Business to customer",
+    text: "Workers’ Comp & Disability",
   },
   {
     id: 4,
-    text: "Ecommerce",
+    text: "Medical Review Companies",
   },
 ];
 

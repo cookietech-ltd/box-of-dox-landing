@@ -8,10 +8,9 @@ export default function Portfolio() {
     <>
       <div className="row mb-70 mb-sm-50">
         <div className="col-lg-6 col-xl-5 mb-md-40">
-          <h2 className="section-title mb-40 mb-xs-30">Case Studies</h2>
+          <h2 className="section-title mb-40 mb-xs-30">Real Results. Real Impact.</h2>
           <p className="section-descr dark-white mb-0">
-            We help brands and businesses stand out in the changing digital
-            landscape.
+            See how Box of Dox is transforming case reviews across industries.
           </p>
         </div>
         <div className="col-lg-6 offset-xl-1 d-flex align-items-end pb-10">
@@ -39,17 +38,20 @@ export default function Portfolio() {
         {portfolios4.map((item, index) => (
           <div key={index} className="col-md-6 col-lg-4 mt-50 mt-sm-40">
             <Link
-              href={`/corporate-portfolio-single/${item.id}`}
+              href={`/portfolio-single/${item.id}`}
               className="portfolio-5-link"
             >
               <div className="portfolio-5-image">
                 <div className="portfolio-5-image-bg wow scalexIn" />
-                <div className="wow fadeIn" data-wow-delay="1s">
+                <div className="wow fadeIn" data-wow-delay="1s" style={{ width: '100%', height: '300px', position: 'relative', overflow: 'hidden' }}>
                   <Image
                     src={item.imageSrc}
-                    width={660}
-                    height={472}
                     alt="Portfolio Image"
+                    fill
+                    style={{
+                      objectFit: 'cover',
+                      objectPosition: 'center'
+                    }}
                   />
                 </div>
               </div>

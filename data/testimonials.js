@@ -117,18 +117,18 @@ export const testimonials4 = [
 
 export const testimonialItems = [
   {
-    imageSrc: "/assets/images/demo-corporate/testimonial-1.jpg",
+    imageSrc: "/assets/images/testimonial-image-1.jpg",
     quote:
-      "This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is the absolute best I've ever had the pleasure of interacting with. Quick, courteous, premium and extremely helpful!",
-    author: "Adam Peterson",
-    position: "Marketing Consultant",
+      "Box of Dox has completely revolutionized how we manage case files. The speed and accuracy of the summaries are unmatched — what used to take days now takes minutes. Their team’s support is not only responsive but genuinely invested in our success. This is next-level legal tech.",
+    author: "Jamie Alston",
+    position: "Senior Case Manager, WestBridge Legal",
   },
   {
-    imageSrc: "/assets/images/demo-corporate/testimonial-2.jpg",
+    imageSrc: "/assets/images/testimonial-image-3.jpg",
     quote:
-      "Optimization and structure are very good for SEO basics. A remarkable model, everything has been thought out with talent, the design, the various adaptations. Beautiful template, nice code and easy to customize.",
-    author: "Jordan Harvey",
-    position: "SEO/SMO Expert",
+      "Box of Dox transformed our legal case preparation process. What used to take weeks of back-and-forth with physicians now happens in just days — complete with ICD codes, projected treatment costs, and a signed report ready for litigation. It’s like having a physician and an AI assistant working hand-in-hand.",
+    author: "Katherine Brooks",
+    position: "Senior Case Manager, MedLegal Partners",
   },
 ];
 

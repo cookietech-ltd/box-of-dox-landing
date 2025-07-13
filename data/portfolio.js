@@ -239,25 +239,25 @@ export const portfolios3 = [
 export const portfolios4 = [
   {
     id: 25,
-    imageSrc: "/assets/images/demo-corporate/portfolio/project-1.jpg",
-    title: "How Marketing Wire Support Increased Data Accuracy by 70%",
-    number: "70%",
-    description: "growth with Resonance",
+    imageSrc: "/assets/images/portfolio-image-1.jpg",
+    title: "How LawBridge LLP Cut Case Prep Time by 80%",
+    number: "80%",
+    description: "time saved per case",
   },
   {
     id: 26,
-    imageSrc: "/assets/images/demo-corporate/portfolio/project-2.jpg",
+    imageSrc: "/assets/images/portfolio-image-2.jpg",
     title:
-      "How Surface Mobility Increased Sales 3X During the Latest Six Months",
-    number: "3x",
-    description: "sales increased with Resonance",
+      "How One Case Manager Won 5X More Settlements",
+    number: "5X",
+    description: "increase in successful settlements",
   },
   {
     id: 27,
-    imageSrc: "/assets/images/demo-corporate/portfolio/project-3.jpg",
-    title: "How Gen Machine Uses Automations to Grow Their Subscriber Base",
+    imageSrc: "/assets/images/portfolio-image-3.jpg",
+    title: "How Box of Dox Helped a Small Firm Scale Big",
     number: "Zero",
-    description: "negative reviews with Resonance",
+    description: "missed deadlines or rejected reports",
   },
 ];
 
