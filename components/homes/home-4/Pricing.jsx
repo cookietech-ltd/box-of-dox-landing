@@ -16,7 +16,7 @@ export default function Pricing() {
         </div>
       </div>
       <div className="row">
-        <div className="col-xl-10 offset-xl-1">
+        <div className="col-xl-12  ">
           {/* Nav Tabs */}
           {/* <div className="mb-60 mb-sm-40 text-center">
             <ul
@@ -62,7 +62,7 @@ export default function Pricing() {
           </div> */}
           {/* End Nav Tabs */}
           {/* Tab panes */}
-          <div className="tab-content tpl-minimal-tabs-cont position-relative wow fadeInUp">
+          <div className="tab-content tpl-minimal-tabs-cont position-relative wow fadeInUp ">
             {/* Decoration Dots */}
             <div
               className="decoration-9 d-none d-sm-block z-index-n1"
@@ -93,13 +93,13 @@ export default function Pricing() {
               />
             </div>
             {/* End Decorative Waves */}
-            <div className="tab-pane show active">
-              <div className="row mt-n30">
+            <div className="tab-pane show active ">
+              <div className="row mt-n30 ">
                 {/* Pricing Item */}
                 {pricing.map((elm, i) => (
                   <div
                     key={i}
-                    className="col-md-6 col-lg-4 mt-30 d-flex align-items-stretch"
+                    className="col-md-6 col-lg-4  mt-30 d-flex align-items-stretch "
                   >
                     <div className="pricing-item">
                       <div className="pricing-item-inner round">
@@ -123,10 +123,10 @@ export default function Pricing() {
                             {isYearly ? "per year" : "per month"}
                           </div>
                           <div className="pricing-features">
-                            <ul className="pr-list">
+                            <ul className="pr-list ">
                               {elm.features.map((elm, i) => (
                                 <li key={i}>
-                                  <i className="mi-check color-primary-1" /> 
+                                  <i className="mi-check color-primary-1 me-2" /> 
                                   {elm}
                                 </li>
                               ))}

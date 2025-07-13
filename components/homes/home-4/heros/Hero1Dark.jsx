@@ -13,7 +13,7 @@ export default function Hero1Dark() {
                 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp animated"
                 style={{ visibility: "visible", animationName: "fadeInUp" }}
               >
-                Close Quicker. Settle Smarter. Win Bigger.
+                Close Quicker. Settle Smarter.
               </h1>
               <p
                 className=" mb-50 mb-sm-40 wow fadeInUp animated"
