@@ -112,7 +112,9 @@ export default function MainAboutPage1() {
             </main>
           </>
 
-          <Footer4 />
+          <footer className="footer-2 bg-dark-1 light-content pb-50">
+            <Footer4 />
+          </footer>
         </div>{" "}
       </div>
     </>
