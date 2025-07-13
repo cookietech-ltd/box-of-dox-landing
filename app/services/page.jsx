@@ -14,9 +14,9 @@ import { features5 } from "@/data/features";
 
 export const metadata = {
   title:
-    "Corporate Services Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Box Of Dox",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Trusted by legal professionals to uncover the full value of every injury claim",
 };
 export default function CorporateServicesPageDark() {
   return (
